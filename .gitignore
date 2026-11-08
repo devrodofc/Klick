@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+# ==============================
+# KLICK - Git Ignore
+# ==============================
+
 # Sistema operacional
 .DS_Store
 Thumbs.db
@@ -14,46 +17,32 @@ Thumbs.db
 *.tmp
 .cache/
 
-# Dependências e builds genéricos
+# Godot
+.godot/
+.import/
+.nomedia
+
+# Godot - Exportação
+export.cfg
+export_credentials.cfg
+*.exe
+
+# Godot - Mono / C#
+.mono/
+data_*/
+mono_crash.*.json
+
+# Godot - Arquivos gerados
+*.translation
+~*.dll
+
+# Dependências e builds
 node_modules/
 dist/
 build/
 coverage/
 
-# Credenciais locais
+# Credenciais
 .env
 .env.*
 !.env.example
-
-# A engine ainda não foi definida.
-# Adicionar regras específicas quando a tecnologia for escolhida.
-
-# Godot
-.godot/
-=======
-# Godot 4.2+ specific ignores
-~*.dll
-
-# Godot 4+ specific ignores
-.godot/
-.nomedia
-
-# Godot-specific ignores
-.import/
-export.cfg
-export_credentials.cfg
-*.tmp
-
-# Imported translations (automatically generated from CSV files)
-*.translation
-
-# Mono-specific ignores
-.mono/
-data_*/
-mono_crash.*.json
-
-# Export outputs
-*.exe
-# Uncomment if your project does not version PCK files as runtime dependencies.
-# *.pck
->>>>>>> origin/main
