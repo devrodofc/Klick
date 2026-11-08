@@ -1,0 +1,28 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+*~
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Logs e temporários
+*.log
+*.tmp
+.cache/
+
+# Dependências e builds genéricos
+node_modules/
+dist/
+build/
+coverage/
+
+# Credenciais locais
+.env
+.env.*
+!.env.example
+
+# A engine ainda não foi definida.
+# Adicionar regras específicas quando a tecnologia for escolhida.
